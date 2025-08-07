@@ -1,1 +1,137 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArmEd — Developers' Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #eef2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #005f99;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.3em;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #005f99;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #005f99;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .team-list {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            background: #fff;
+            flex: 1 1 200px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        .team-member h3 {
+            margin: 10px 0 5px;
+        }
+        .team-member p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .contact {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        .contact a {
+            color: #005f99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .call-to-action {
+            text-align: center;
+        }
+        .call-to-action button {
+            background: #005f99;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .call-to-action button:hover {
+            background: #004a7a;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #d3dce3;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>ArmEd</h1>
+    <p>The Art of Code & Engineering</p>
+</header>
+<main>
+    <section class="team">
+        <h2>Meet the Developers</h2>
+        <div class="team-list">
+            <div class="team-member">
+                <h3>Armen Khachaturov</h3>
+            </div>
+            <div class="team-member">
+                <h3>Eduard Khachaturov</h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Drop us a line at <a href="mailto:ahaiiojioh@gmail.com">ahaiiojioh@gmail.com</a> and let's build something awesome together.</p>
+    </section>
+    <section class="call-to-action">
+        <h2>Let's Collaborate</h2>
+        <p>What project sparks your imagination? Tell us and let's turn it into reality!</p>
+        <button onclick="window.location.href='mailto:ahaiiojioh@gmail.com'">Share Your Idea</button>
+    </section>
+</main>
+<footer>
+    © 2025 ArmEd. All Rights Reserved.
+</footer>
+</body>
+</html>
