@@ -548,6 +548,8 @@ yahoo.com,59318,RESELLER,e1a5b5b6e3255540
 
 yandex.com,302446435,direct
 
+yandex.com, 312451311, DIRECT
+
 yandex.com,94923424,RESELLER
 
 yandex.com,97539269,RESELLER
